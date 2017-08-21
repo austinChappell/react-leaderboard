@@ -1,0 +1,19 @@
+body {
+  background: lightgray; }
+
+#leaderboard {
+  background: white;
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px; }
+
+#header, .leader {
+  display: flex;
+  justify-content: space-between; }
+  #header div:first-of-type, .leader div:first-of-type {
+    flex-basis: 10%;
+    flex-grow: 0; }
+  #header div, .leader div {
+    border: 1px solid black;
+    flex-basis: 30%;
+    padding: 5px; }

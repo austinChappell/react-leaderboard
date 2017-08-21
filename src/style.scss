@@ -1,0 +1,30 @@
+$color-primary: darkgray;
+$color-secondary: gray;
+$color-tertiary: lightgray;
+$color-black: black;
+$color-white: white;
+
+body {
+  background: $color-tertiary;
+}
+
+#leaderboard {
+  background: $color-white;
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+#header, .leader {
+  display: flex;
+  justify-content: space-between;
+  div:first-of-type {
+    flex-basis: 10%;
+    flex-grow: 0;
+  }
+  div {
+    border: 1px solid $color-black;
+    flex-basis: 30%;
+    padding: 5px;
+  }
+}
