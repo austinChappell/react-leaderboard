@@ -15,7 +15,7 @@ class LeaderList extends Component {
     return (
       <div>
         {this.props.data.map((leader, index) => {
-          return <Leader key={index} rank={index + 1} name={leader.username} thirtyDays={leader.recent} allTime={leader.alltime} />
+          return <Leader key={index} rank={index + 1} image={leader.img} name={leader.username} thirtyDays={leader.recent} allTime={leader.alltime} />
         })}
 
       </div>
